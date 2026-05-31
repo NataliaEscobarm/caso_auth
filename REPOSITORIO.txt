@@ -1,0 +1,12 @@
+SENA - SERVICIO NACIONAL DE APRENDIZAJE
+TECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE (ADSO)
+
+EVIDENCIA: GA7-220501096-AA5-EV01 - Diseño y desarrollo de servicios web - caso
+
+APRENDICES:
+- Yulieth Natalia Escobar Marín
+- Kelly Ramírez
+- Emilse Ostos Roa
+
+ENLACE DEL REPOSITORIO OFICIAL (GITHUB):
+https://github.com/NataliaEscobarm/caso_auth
