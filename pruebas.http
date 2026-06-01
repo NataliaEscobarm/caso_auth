@@ -1,0 +1,40 @@
+### CASO DE PRUEBA 01: REGISTRO DE USUARIO EXITOSO
+POST http://localhost/caso_auth/register.php
+Content-Type: application/json
+
+{
+    "usuario": "natalia_adso",
+    "password": "ClaveSegura2026"
+}
+
+###
+
+### CASO DE PRUEBA 02: REGISTRO CON DATOS FALTANTES
+POST http://localhost/caso_auth/register.php
+Content-Type: application/json
+
+{
+    "usuario": ""
+}
+
+###
+
+### CASO DE PRUEBA 03: INICIO DE SESIÓN EXITOSO
+POST http://localhost/caso_auth/login.php
+Content-Type: application/json
+
+{
+    "usuario": "natalia_adso",
+    "password": "ClaveSegura2026"
+}
+
+###
+
+### CASO DE PRUEBA 04: INICIO DE SESIÓN ERRÓNEO
+POST http://localhost/caso_auth/login.php
+Content-Type: application/json
+
+{
+    "usuario": "natalia_adso",
+    "password": "ClaveIncorrecta123"
+}
